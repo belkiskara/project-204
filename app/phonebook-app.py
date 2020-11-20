@@ -100,7 +100,7 @@ def find_records():
         persons = find_persons(keyword)
         return render_template('index.html', persons=persons, keyword=keyword, show_result=True, developer_name='Belkis')
     else:
-        return render_template('index.html', show_result=False, developer_name='Belkis)
+        return render_template('index.html', show_result=False, developer_name='Belkis')
 
 
 # Write a function named `add_record` which inserts new record to the database using `GET` and `POST` methods,
